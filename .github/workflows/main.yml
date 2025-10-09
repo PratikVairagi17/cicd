@@ -83,7 +83,7 @@ jobs:
             # Start app in background using nohup
             # --------------------------------------------------------
             echo "🚀 Starting FastAPI app with nohup..."
-            
+            hi
 
             nohup venv/bin/python3 main.py > app.log 2>&1 &
 
