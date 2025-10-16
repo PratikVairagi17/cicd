@@ -64,7 +64,6 @@ env.bak/
 venv.bak/
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -144,8 +143,10 @@ node_modules/
 .tern-port
 
 # Stores VSCode versions used for testing VSCode extensions
-.vscode-test
 
 # Temporary folders
 tmp/
 temp/
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
